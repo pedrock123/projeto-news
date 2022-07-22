@@ -58,7 +58,7 @@ header h1 {
 header p {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 300px;
+    max-width: 345px;
     margin: auto;
     color: var(--branco);
     text-shadow: 3px 1px 2px var(--sombra);
