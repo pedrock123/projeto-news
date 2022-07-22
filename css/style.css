@@ -103,11 +103,12 @@ main h2{
     font-weight: 400;
     font-size: 2em;
     color: var(--cor5);
-    background-image: linear-gradient(to right, #2b4f7ecc,#4680cc09 );
+    background-image: linear-gradient(to right, #2b4f7ecc,#4680cc02 );
     padding: 8px 0px 7px 16px;    
-    border-radius: 90px;
+    border-radius: 90px 0px 0px 90px;
     margin-bottom: 17px;
     margin-top: 10px;
+    width: 500px;
 }
 
 section p{
