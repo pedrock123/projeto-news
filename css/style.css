@@ -98,45 +98,46 @@ main {
     max-width: 800px;
 }
 
-main h1{
+main h1 {
     font-family: CPBR;
     color: var(--cor6);
-    background-image: linear-gradient(to left, #94afd504, #467FCC );
+    background-image: linear-gradient(to left, #94afd504, #467FCC);
     padding: 8px 0px 7px 16px;
     border-radius: 20px 0px 0px 20px;
 }
-main h2{
+
+main h2 {
     font-family: destaque;
     font-weight: 400;
     font-size: 2em;
     color: var(--cor5);
-    background-image: linear-gradient(to right, #2b4f7ecc,#4680cc02 );
-    padding: 8px 0px 7px 16px;    
+    background-image: linear-gradient(to right, #2b4f7ecc, #4680cc02);
+    padding: 8px 0px 7px 16px;
     border-radius: 90px 0px 0px 90px;
     margin-bottom: 17px;
     margin-top: 10px;
     width: 500px;
 }
 
-section p{
+section p {
     text-indent: 20px;
     line-height: 20px;
 }
 
-a{
+a {
     color: var(--cor4);
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-strong{
+strong {
     color: var(--cor5);
 }
 
-footer{
+footer {
     background-color: var(--cor7);
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 9px 9px 0px 0px;
@@ -148,39 +149,40 @@ footer{
 }
 
 
-img{
+img {
     border-radius: 20px;
     width: 470px;
 }
 
-.img_codigo_aba{
+.img_codigo_aba {
     margin-bottom: 60px;
 }
 
-#p_cd{
+#p_cd {
     padding: 2px;
     font-weight: bolder;
     margin: 10px;
 }
 
-.codigos_aba_codigos{
+.codigos_aba_codigos {
     font-size: 1.6em;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
-.pin_img_aba_pin{
+.pin_img_aba_pin {
     width: 420px;
     margin-bottom: 40px;
 }
 
-.sub_titu_aba_pin{
+.sub_titu_aba_pin {
     margin-top: 40px;
 }
 
-sub{
+sub {
     color: rgb(92, 91, 91);
 }
+
 @media only screen and (max-width: 533px) {
 
     nav {
@@ -195,10 +197,10 @@ sub{
         margin: 3px;
     }
 
-.img_codigo_aba{
-    width: 90%;
-}
-    
+    .img_codigo_aba {
+        width: 90%;
+    }
+
 
     .nv_bt {
         width: 73px;
@@ -228,22 +230,35 @@ sub{
         width: 43px;
     }
 
-    #sb_gcp{ /* h2 grande com configuração diferente */
+    #txt_gd {
+        /* h2 grande com configuração diferente */
         width: 200px;
     }
 
 
-    main h2{
+    main h2 {
         background-image: linear-gradient(to right, );
         padding: 15px;
         width: 252px;
         border-radius: 30px 0px 0px 30px;
     }
 
-    
+    img.pin_img_aba_pin {
+        width: 90%;
+    }
+
+    .sub_titu_aba_pin {
+        padding: 13px;
+        width: 172px;
+        border-radius: 30px 0px 0px 30px;
+    }
+
+
 }
 
 @media only screen and (min-width: 534px) {
+
+
 
 
 
@@ -252,7 +267,7 @@ sub{
         height: 50px;
         width: 100%;
         display: flex;
-        flex-direction: row;   
+        flex-direction: row;
         justify-content: center;
     }
 
@@ -260,10 +275,10 @@ sub{
         border-radius: 10px;
         padding: 6px;
         display: flex;
-        flex-direction: column;   
-        justify-content: center;    
+        flex-direction: column;
+        justify-content: center;
         position: relative;
-        top: 11px; 
+        top: 11px;
         margin: 2px;
     }
 
@@ -301,6 +316,8 @@ sub{
         width: 42px;
         height: 18px;
     }
+
+
 }
 
 
@@ -308,7 +325,7 @@ sub{
 @media only screen and (min-width: 720px) {
 
 
-    nav{
+    nav {
         display: flex;
         flex-direction: row;
         justify-content: center;
