@@ -169,6 +169,18 @@ img{
     font-weight: 700;
 }
 
+.pin_img_aba_pin{
+    width: 420px;
+    margin-bottom: 40px;
+}
+
+.sub_titu_aba_pin{
+    margin-top: 40px;
+}
+
+sub{
+    color: rgb(92, 91, 91);
+}
 @media only screen and (max-width: 533px) {
 
     nav {
