@@ -101,7 +101,9 @@ main {
 main h1{
     font-family: CPBR;
     color: var(--cor6);
-    background-image: linear-gradient(to right, var(--cor3), var(--cor2));
+    background-image: linear-gradient(to left, #94afd504, #467FCC );
+    padding: 8px 0px 7px 16px;
+    border-radius: 20px 0px 0px 20px;
 }
 main h2{
     font-family: destaque;
@@ -153,6 +155,12 @@ img{
 
 .img_codigo_aba{
     margin-bottom: 60px;
+}
+
+#p_cd{
+    padding: 2px;
+    font-weight: bolder;
+    margin: 10px;
 }
 
 .codigos_aba_codigos{
