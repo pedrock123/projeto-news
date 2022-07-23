@@ -242,6 +242,12 @@ sub {
         width: 200px;
     }
 
+    main h1{
+        width: 90%;
+        font-size: 1.23em;
+        margin-right: 10px;
+    }
+
 
     main h2 {
         background-image: linear-gradient(to right, );
