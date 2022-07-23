@@ -33,9 +33,16 @@
     padding: 0px;
 }
 
-body {
-    background-image: linear-gradient(to top, var(--corfundo2), var(--corfundo1));
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background-color: #94afd5;
+    background-image: url("../imagens/fundo.jpg");     /* setando a imagem de fundo */
+    height: 100vh;       /* vh = viwport toda largura e altura da tela */ 
+    background-repeat: no-repeat;     /* não vai repetir nem no eixo y e x */ 
+    background-position: top center;    /* qual parte da imagem */
+    background-size: cover;     /* cover = Dimensiona a imagem (enquanto preserva sua proporção) */
+    font-family: Arial, Helvetica, sans-serif; 
+    background-attachment: fixed;     /* se o fundo vai ser fixo ou vai se movimentar junto com o main */
+
 }
 
 header {
